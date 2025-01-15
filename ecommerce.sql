@@ -8,7 +8,7 @@ create table client (
     idclient int primary key auto_increment,
     Fname varchar(15) not null,
     minit char(3),
-	Lname varchar(45) not null,
+    Lname varchar(45) not null,
     CPF char(11) not null,
     namefantasy char(25),
     address varchar(255),
