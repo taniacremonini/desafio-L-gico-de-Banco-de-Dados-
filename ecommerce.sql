@@ -37,7 +37,7 @@ create table product (
     avaliação float default 0,
     price decimal(10,2) not null,
     idsupplier int not null,
-    foreign key (idsupplier) references supplier(idsupplier)
+    constraint fk_supplier_product foreign key (idsupplier) references supplier(idsupplier)
 );
 
 
