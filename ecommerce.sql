@@ -1,5 +1,4 @@
 
-drop database ecommerce;
 create database ecommerce;
 use ecommerce;
 
